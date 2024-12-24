@@ -1,0 +1,3 @@
+/*
+var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));var ga_codeHost=(("https:"==document.location.protocol)?"https://www2.yamaha-motor.jp/shared/js/":"http://www.yamaha-motor.co.jp/shared/js/");document.write(unescape("%3Cscript src='"+ga_codeHost+"matc.js' type='text/javascript' charset='utf-8'%3E%3C/script%3E"));document.write(unescape("%3Cscript src='"+ga_codeHost+"gatrack.js' type='text/javascript' charset='utf-8'%3E%3C/script%3E"));
+*/

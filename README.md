@@ -8,12 +8,16 @@ As announced on September 30, 2018:
 >
 > Please note that should paper crafts similar to or based on those once posted on the official Yamaha Motor website appear on other third-party websites, Yamaha Motor has no relationship with nor bears any responsibility for them.
 
-Originally dumped by [u/felisucoibi](https://www.reddit.com/user/felisucoibi): https://goo.gl/SC4Krc
+Originally dumped by [u/felisucoibi](https://www.reddit.com/user/felisucoibi): https://www.reddit.com/r/DataHoarder/comments/9iraqc/comment/e6mfk4u/
 
 ```
 wget -kmxp --no-check-certificate -np -t0 -T30 -o Yamaha.log -b https://global.yamaha-motor.com/showroom/papercraft/
 ```
 
 Magnet: `magnet:?xt=urn:btih:1d67c1f19c8f953d7bc7389b8a8563784d7fbab8&dn=YAMAHA`
+
+Merged with dump by [u/Catsrules](https://www.reddit.com/user/Catsrules): https://www.reddit.com/r/DataHoarder/comments/9iraqc/comment/e6mje2i/
+
+Magnet: `magnet:?xt=urn:btih:ee9e9f5220996cada3f4cede3794a87ed5fec2aa&dn=Yamaha.7z`
 
 Mirror on The Internet Archive: https://web.archive.org/web/20180802051052/https://global.yamaha-motor.com/showroom/papercraft/
