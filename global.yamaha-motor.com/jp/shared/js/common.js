@@ -14,7 +14,7 @@ function YMonloadFunction() {
 		YMsearchTextValue= YMsearchText.value;
 		YMsearchTextCol = YMsearchText.style.color;
 		YMsearchText.onfocus = YMsitesearchClear;
-		YMsearchText.onblur = YMsitesearchSet; 
+		YMsearchText.onblur = YMsitesearchSet;
 	}
 	if(document.getElementById("YMLocalNavigationArea") && document.getElementById("ContentsArea")){
 		var lnaviH = document.getElementById("YMLocalNavigationArea").offsetHeight;
@@ -49,7 +49,7 @@ function checkIt(string){
 	thestring = string;
 	return place;
 }
-if (checkIt('safari')) { 
+if (checkIt('safari')) {
 	function YMopenWindow (theURL,winName,features) {
 		window.open(theURL, winName, features);
 		return false;
@@ -102,7 +102,6 @@ function YMoutJump(tagobj) {
 <!-- /.information --></div>\
 <!-- /#YMFooterArea --></div>\
 <!-- /.container --></div>\
-<script src="http://www.yamaha-motor.co.jp/shared/js/ga_code.js" charset="utf-8"></script>\
 </body>\
 </html>\
 ');
