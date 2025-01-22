@@ -1,0 +1,57 @@
+#ContentsArea {
+}
+
+#ContentsArea div.contentsWidth{
+	padding:0 12px 0 12px;
+}
+#ContentsArea h2 {
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	line-height: 1.2em;
+}
+
+#ContentsArea h3 {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+}
+
+#ContentsArea h4 {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+}
+
+
+#ContentsArea p {
+	margin:-2px 0 -1px 0;
+}
+#ContentsArea p.lltext {
+	margin:-3px 0 -3px 0;
+}
+#ContentsArea p.ltext {
+	margin:-3px 0 -2px 0;
+}
+#ContentsArea p.text {
+	margin:-2px 0 -1px 0;
+}
+#ContentsArea p.dtext {
+	margin:-2px 0 -1px 0;
+}
+#ContentsArea p.stext {
+	margin:-2px 0 0 0;
+}
+
+#ContentsArea ul,
+#ContentsArea ol  {
+	line-height: 1.2em;
+	margin:1em 0 1em 40px;
+	padding:0;
+}
+#ContentsArea li {
+	margin:0;
+}

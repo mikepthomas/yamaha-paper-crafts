@@ -1,0 +1,23 @@
+#ContentsArea {
+	background: #fff url(../img/cmn_toptype_bg_001.png) 0 0 repeat-x;
+}
+#ContentsArea #OldTopTypeContents {
+	margin-left: 101px;
+	width: 748px;
+/*	height: auto !important;
+	float:left;*/
+}
+#ContentsArea .spacer img {
+	display: block;
+}
+#ContentsArea .spacer br {
+	display: none;
+}
+#ContentsArea embed,
+#ContentsArea object {
+	display: block;
+}
+#ContentsArea img {
+	vertical-align: bottom;
+	*vertical-align: text-bottom;
+}

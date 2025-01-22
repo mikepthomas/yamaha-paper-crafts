@@ -1,0 +1,197 @@
+/* ______________________________________________
+yamaha-motor
+
+PaperCraft
+/showroom/papercraft/css/category.css
+______________________________________________ */
+
+#ContentsArea #SubMenuContents {
+	margin: 0px;
+	/*border-top:10px #333 solid;*/
+	padding: 0px;
+	width: 564px;
+	/*min-height:470px;*/
+	height: auto !important;
+	/*height: 470px;*/
+	float:left;
+}
+#ContentsArea #YMSideNavigationArea ul.banner {
+	margin-top: 0;
+}
+#ContentsArea .spacer img {
+	display: block;
+}
+#ContentsArea .spacer br {
+	display: none;
+}
+#ContentsArea embed,
+#ContentsArea object {
+	display: block;
+}
+#ContentsArea img {
+	vertical-align: bottom;
+	*vertical-align: text-bottom;
+}
+
+/* =============== img border swap(IB) =============== */
+
+#ContentsArea .imgBorder a:link img,
+#ContentsArea .imgBorder a:visited img {
+	border-color : #e6e6e6;
+}
+
+#ContentsArea .imgBorder a:hover img {
+	border-color : #ff0000;
+}
+
+#ContentsArea .imgBorder a:hover {
+	border-color : #ff0000;
+}
+
+
+#ContentsArea .imgBorder2 a:link img,
+#ContentsArea .imgBorder2 a:visited img {
+	border: 3px solid #fff;
+}
+
+#ContentsArea .imgBorder2 a:hover img {
+	border-color : #ff0000;
+}
+
+#ContentsArea .imgBorder2 a:hover {
+	border-color : #ff0000;
+}
+
+/* =============== anchor color =============== */
+
+#ContentsArea a:link,
+#ContentsArea a:visited{
+	color:#0024ff;
+}
+
+#ContentsArea a:hover,
+#ContentsArea a:active{
+	color:#ff401a;
+}
+
+/* =============== text color =============== */
+
+#ContentsArea .lltext,
+#ContentsArea .ltext,
+#ContentsArea .text,
+#ContentsArea .dtext,
+#ContentsArea .stext,
+#ContentsArea .sstext,
+#ContentsArea ul,
+#ContentsArea ol,
+#ContentsArea a.lltext:link,
+#ContentsArea a.lltext:visited,
+#ContentsArea a.ltext:link,
+#ContentsArea a.ltext:visited,
+#ContentsArea a.text:link,
+#ContentsArea a.text:visited,
+#ContentsArea a.dtext:link,
+#ContentsArea a.dtext:visited,
+#ContentsArea a.stext:link,
+#ContentsArea a.stext:visited{
+	color:#111111;
+}
+
+#ContentsArea a.lltext:hover,
+#ContentsArea a.lltext:active,
+#ContentsArea a.ltext:hover,
+#ContentsArea a.ltext:active,
+#ContentsArea a.text:hover,
+#ContentsArea a.text:active,
+#ContentsArea a.dtext:hover,
+#ContentsArea a.dtext:active,
+#ContentsArea a.stext:hover,
+#ContentsArea a.stext:active{
+	color:#ff401a;
+}
+
+
+#ContentsArea .wColor{
+	color:#ffffff;
+}
+
+/* =============== background =============== */
+
+/* =============== local navigation =============== */
+
+/* =============== contents area =============== */
+
+
+#ContentsArea a.redLink:link,
+#ContentsArea a.redLink:visited{
+	color : #ffffff;
+	text-decoration : underline;
+}
+#ContentsArea a.redLink:hover,
+#ContentsArea a.redLink:active{
+	color : #ffff00;
+	text-decoration : underline;
+}
+
+/* =============== table =============== */
+
+#ContentsArea table.redTable{
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	border-color: #828282;
+	border-collapse: collapse;
+}
+
+#ContentsArea table.redTable td.redTd0,
+#ContentsArea table.redTable td.redTd3,
+#ContentsArea table.redTable td.redTd3{
+	vertical-align: top;
+	text-align: left;
+}
+#ContentsArea table.redTable td.redTd2{
+	vertical-align: top;
+	text-align: center;
+}
+
+#ContentsArea table.redTable td.redTd0,
+#ContentsArea table.redTable td.redTd1,
+#ContentsArea table.redTable td.redTd2,
+#ContentsArea table.redTable td.redTd3{
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: #828282;
+}
+
+#ContentsArea table.redTable td.redTd0{
+	background-color: #828282;
+}
+#ContentsArea table.redTable td.redTd1{
+	background-color: #d3d3d3;
+}
+#ContentsArea table.redTable td.redTd2{
+	background-color: #ffb3a3;
+}
+#ContentsArea table.redTable td.redTd3{
+	background-color: #ffffff;
+}
+
+#ContentsArea .redtlText{
+	color: #ffffff;
+}
+
+#ContentsArea table.pluginTable th.pluginTh{
+	background:#959595;
+}
+
+#ContentsArea table.pluginTable td.pluginTd{
+	background:#737373;
+}
+
+#ContentsArea table.pluginTable a:link,
+#ContentsArea table.pluginTable a:visited{
+	color:#e6e6e6;
+}
+#ContentsArea table.pluginTable a:hover,
+#ContentsArea table.pluginTable a:active{
+	color:#ff401a;
+}
