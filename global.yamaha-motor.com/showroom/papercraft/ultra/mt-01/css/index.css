@@ -1,0 +1,74 @@
+#ContentsArea {
+	position:relative;
+	background-color:#0f2989;
+	color:#fff;
+}
+#ContentsArea a:link,
+#ContentsArea a:visited {
+	color:#fff;
+}
+#ContentsArea a:hover,
+#ContentsArea a:active {
+	color:#ff0;
+}
+#ContentsArea a img {
+	border:0;
+}
+#ContentsArea h2,
+#ContentsArea h3,
+#ContentsArea p {
+	margin:0; padding:0;
+	height:auto;
+}
+
+#ContentsArea #mainwrap {
+	position:relative;
+	background:transparent url("../img/bg_001_old.jpg") no-repeat;
+	width:748px;
+	overflow:hidden;
+}
+#ContentsArea #main {
+	padding:19px 0px 35px 159px;
+	background:transparent url("../img/bg_002.jpg") no-repeat 499px 0px;
+}
+#ContentsArea #logo {
+	position:absolute;
+	top:21px; left:34px;
+}
+#ContentsArea #title {
+	position:relative;
+}
+#ContentsArea #title p {
+	margin:0;
+}
+#ContentsArea #title h2 {
+	position:absolute;
+	top:3px; left:357px;
+}
+
+#ContentsArea #download {
+	margin:20px 0 0 351px;
+}
+#ContentsArea #download ul {
+	margin:0; padding:0;
+	list-style:none;
+}
+#ContentsArea #download li {
+	position:relative;
+	margin:0 0 11px 0; padding:0;
+	height:73px;
+	/*\*/overflow:hidden;/* */
+}
+
+#ContentsArea #instruction {
+	border-top:1px solid #fff;
+	padding:16px 25px 50px 20px;
+}
+#ContentsArea #instruction p {
+	margin:0;
+	line-height:1.5em;
+	text-align:right;
+}
+#ContentsArea #instruction p.product {
+	margin:8px 0 0 0;
+}

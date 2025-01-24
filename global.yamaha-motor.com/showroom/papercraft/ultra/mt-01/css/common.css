@@ -1,0 +1,105 @@
+#ContentsArea {
+	position:relative;
+	background-color:#0f2989;
+	color:#fff;
+}
+#ContentsArea a:link,
+#ContentsArea a:visited {
+	color:#fff;
+}
+#ContentsArea a:hover,
+#ContentsArea a:active {
+	color:#ff0;
+}
+#ContentsArea a img {
+	border:0;
+}
+#ContentsArea h2,
+#ContentsArea h3,
+#ContentsArea p {
+	margin:0; padding:0;
+	height:auto;
+}
+
+#ContentsArea #mainwrap {
+	position:relative;
+	background:transparent url("../img/cmn_bg_001.jpg") no-repeat;
+	width:748px;
+	overflow:hidden;
+}
+#ContentsArea #main {
+	padding:19px 13px 21px 159px;
+}
+#ContentsArea #logo {
+	position:absolute;
+	top:21px; left:34px;
+}
+#ContentsArea #title {
+	position:relative;
+	padding:0 0 15px 0;
+}
+#ContentsArea #title p {
+	margin:0;
+}
+#ContentsArea #title a {
+	position:absolute;
+	top:38px; left:466px;
+}
+#ContentsArea #parts {
+	position:relative;
+	border:1px solid #fff;
+}
+#ContentsArea #parts h2 {
+}
+#ContentsArea #parts .number {
+	position:absolute;
+	top:0px; left:0px;
+}
+#ContentsArea #parts .nblink {
+	position:absolute;
+	top:12px; left:457px;
+	margin:0; padding:0;
+	list-style:none;
+}
+#ContentsArea #parts .nblink li {
+	display:inline;
+}
+#ContentsArea #parts .nblink .back img {
+	border-right:1px solid #fff;
+}
+
+#ContentsArea #download {
+	position:relative;
+	border:1px solid #fff;
+	border-width:0 1px 1px 1px;
+}
+#ContentsArea #download ul {
+	position:absolute;
+	top:0; left:187px;
+	margin:0; padding:0;
+	list-style:none;
+	border-left:1px solid #fff;
+}
+#ContentsArea #download li {
+	display:inline;
+	margin:0; padding:0;
+}
+#ContentsArea #download li a {
+	display:block;
+}
+#ContentsArea #download ul .underline a {
+	border-bottom:1px solid #fff;
+}
+
+#ContentsArea #instruction {
+	border-top:1px solid #fff;
+	padding:16px 25px 50px 20px;
+}
+#ContentsArea #instruction p {
+	margin:0;
+	line-height:1.5em;
+	text-align:right;
+}
+#ContentsArea #instruction p.product {
+	margin:8px 0 0 0;
+}

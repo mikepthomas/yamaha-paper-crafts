@@ -23,3 +23,7 @@ Magnet: `magnet:?xt=urn:btih:ee9e9f5220996cada3f4cede3794a87ed5fec2aa&dn=Yamaha.
 3. Added missing files from https://drive.google.com/drive/folders/1ru5zNUb_VJqxG5TVOfIlnbiWY7CvzYGK and my personal collection
 
 Mirror on The Internet Archive: https://web.archive.org/web/20180802051052/https://global.yamaha-motor.com/showroom/papercraft/
+
+Old Versions on the Internet Archive: https://web.archive.org/web/20130213000730/http://www.yamaha-motor.co.jp/global/entertainment/papercraft/index.html
+
+Older Versions on the Internet Archive: https://web.archive.org/web/20041026010156/http://21yamaha.com:80/mc/papercraft/index.html

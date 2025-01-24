@@ -1,0 +1,291 @@
+/*==================================================
+	Site name : Yamaha motor
+	Modified  : Dec. 15, 2009
+==================================================*/
+/*	Contents Area
+==================================================*/
+#ContentsArea {
+	color: #fff;
+	background-color: #000;
+}
+#ContentsArea .clearfix {
+	zoom: 1;
+}
+#ContentsArea .clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+#ContentsArea a:link,
+#ContentsArea a:visited {
+	color: #fff;
+}
+#ContentsArea a:hover,
+#ContentsArea a:active {
+	color: #ff9329;
+}
+#ContentsArea a.line:link,
+#ContentsArea a.line:visited,
+#ContentsArea .partsUnit a:link,
+#ContentsArea .partsUnit a:visited {
+	padding-bottom: 2px;
+	line-height: 1.4;
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+	text-decoration: none;
+}
+#ContentsArea a.line:hover,
+#ContentsArea a.line:active,
+#ContentsArea .partsUnit a:hover,
+#ContentsArea .partsUnit a:active {
+	color: #ff9329;
+	text-decoration: none;
+	border-bottom: 1px dotted #ff9329;
+}
+
+
+#ContentsArea p {
+	margin: 0;
+}
+#ContentsArea .noscriptTxt {
+	position: relative;
+	margin: 0 0 37px;
+	width: 748px;
+	height: 413px;
+	background: transparent url("../img/nf_bg_001.jpg") no-repeat;
+}
+#ContentsArea .noscriptTxt p {
+	padding: 364px 12px 0;
+	text-align: center;
+}
+
+
+#ContentsArea #flashMovie-wrap {
+	min-height: 600px;
+}
+#ContentsArea #flashMovie {
+	padding: 0 0 27px;
+	background-color: #464445;
+}
+#ContentsArea .partsUnit {
+	margin: 0 20px 27px;
+}
+#ContentsArea .partsUnit h2 {
+	float: right;
+	margin: 0;
+	padding: 0 0 10px;
+	width: 554px;
+	line-height: 1.2;
+	font-weight: normal;
+	border-bottom: 1px solid #fff;
+}
+#ContentsArea .partsUnit h2 .num {
+	font-family: Arial;
+	font-weight: bold;
+}
+#ContentsArea .partsUnit h2 .mainTtl {
+	margin: 0 0.3em;
+	font-size: 131%;
+}
+#ContentsArea .partsUnit .photo {
+	float: left;
+	border: 1px solid #373737;
+}
+#ContentsArea .partsUnit ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 554px;
+	list-style: none;
+}
+#ContentsArea .partsUnit ul li {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 12px 20px 5px 40px;
+	white-space: nowrap;
+	background: transparent url("../img/nf_icon_001.gif") 1px 8px no-repeat;
+}
+
+
+
+#ContentsArea .infoBlock {
+	position: relative;
+	margin: 19px 20px 27px;
+}
+#ContentsArea .infoBlock .prodLink {
+	margin: 15px 0 0;
+	padding: 13px 0 0;
+	border-top: 1px solid #333;
+}
+#ContentsArea .infoBlock .note {
+	margin: 15px 0;
+	width: 480px;
+}
+#ContentsArea .infoBlock .howto {
+	position: absolute;
+	top: 44px;
+	left: 527px;
+}
+#ContentsArea .infoBlock .prodLink p {
+	display: inline;
+	padding: 0 20px 0 0;
+	font-weight: bold;
+}
+#ContentsArea .infoBlock .prodLink ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#ContentsArea .infoBlock .prodLink ul li {
+	display: inline;
+	margin: 0;
+	padding: 0 20px 0 0;
+}
+#ContentsArea .infoBlock .prodLink ul li a {
+	padding: 0 0 0 16px;
+	background: transparent url("../img/ar_001.gif") 0 50% no-repeat;
+}
+
+
+#ContentsArea .partsNotice {
+	padding: 15px 20px 55px 18px;
+	background-color: #3f3d57;
+}
+#ContentsArea .partsNotice h2 {
+	margin: 0 0 10px;
+	padding: 2px 0 3px 25px;
+	color: #f4f4f4;
+	line-height: 1.2;
+	font-weight: normal;
+	background: transparent url("../img/icon_001.gif") 0 50% no-repeat;
+}
+#ContentsArea .partsNotice h2 strong {
+	color: #fff;
+}
+#ContentsArea .partsNotice .explain {
+	margin: 0 0 0 25px;
+	color: #f4f4f4;
+}
+#ContentsArea .partsNotice table {
+	margin: 16px 0 22px 25px;
+	border-collapse: collapse;
+	border: 1px #fff solid; 
+}
+#ContentsArea .partsNotice ul  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#ContentsArea .partsNotice ul  li {
+	padding: 0.3em 0;
+}
+#ContentsArea .partsNotice th {
+	font-weight: bold;
+	text-align: center;
+	background-color:#5b5a82;
+} 
+#ContentsArea .partsNotice th, td {
+	border: 1px #fff solid;
+	padding: 0.6em 1em; 
+	line-height: 1.7;
+} 
+#ContentsArea .partsNotice th.mono {
+	background-color:#212028;
+}
+#ContentsArea .partsNotice td.mono {
+	background-color:#424150;
+}
+#ContentsArea .partsNotice th.color {
+	background-color:#34202c;
+}
+#ContentsArea .partsNotice td.color {
+	background-color:#584451;
+}
+#ContentsArea .partsNotice .col001 {
+	color: #fc0;
+}
+#ContentsArea .partsNotice .col002 {
+	color: #9f6;
+}
+#ContentsArea .partsNotice .col003 {
+	color: #ffabab;
+}
+#ContentsArea .partsNotice .col004 {
+	color: #cdccff;
+}
+#ContentsArea .partsNotice a {
+	margin: 0 0 0 0.5em;
+	padding: 0 0 0 17px;
+	background: transparent url("../img/icon_002.gif") 0 2px no-repeat;
+}
+#ContentsArea .partsNotice td a:link,
+#ContentsArea .partsNotice td a:visited {
+	color: #fffd81;
+	text-decoration: none;
+	line-height: 1.4;
+}
+#ContentsArea .partsNotice td a:link span,
+#ContentsArea .partsNotice td a:visited span {
+	padding-bottom: 2px;
+	border-bottom: 1px dotted #fffd81;
+}
+#ContentsArea .partsNotice td a:hover,
+#ContentsArea .partsNotice td a:active {
+	color: #fff;
+	text-decoration: none;
+}
+#ContentsArea .partsNotice td a:hover span,
+#ContentsArea .partsNotice td a:active span {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff;
+}
+#ContentsArea .partsNotice td.mono a:link,
+#ContentsArea .partsNotice td.mono a:visited {
+	line-height: 1.4;
+	color: #7efab9;
+	text-decoration: none;
+}
+#ContentsArea .partsNotice td.mono a:link span,
+#ContentsArea .partsNotice td.mono a:visited span {
+	padding-bottom: 2px;
+	border-bottom: 1px dotted #7efab9;
+}
+#ContentsArea .partsNotice td.mono a:hover,
+#ContentsArea .partsNotice td.mono a:active {
+	color: #fff;
+	text-decoration: none;
+}
+#ContentsArea .partsNotice td.mono a:hover span,
+#ContentsArea .partsNotice td.mono a:active span {
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff;
+}
+#ContentsArea .partsNotice .box001 {
+	margin: 21px 0 0 23px;
+	padding: 22px 0 0 2px;
+	border-top: 1px solid #908e9d;
+}
+#ContentsArea .partsNotice .box001 .explain2 {
+	float: left;
+	padding: 0 46px 0 0;
+	width: 277px;
+	background: transparent url("../img/icon_003.png") 291px 7px no-repeat;
+}
+#ContentsArea .partsNotice .box001 table {
+	float: right;
+	margin: 0;
+}
+#ContentsArea .partsNotice .explain3 {
+	margin: 21px 0 21px 23px;
+	padding: 0.6em 2px 0.6em 2px;
+	border-top: 1px solid #908e9d;
+	border-bottom: 1px solid #908e9d;
+	text-align: center;
+}
+#ContentsArea #OldTopTypeContents {
+	color: #fff;
+	background-color: #000;
+}
