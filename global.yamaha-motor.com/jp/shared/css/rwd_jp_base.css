@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+body {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+
+
+/* ====================================================================================
+    # PC Layout
+====================================================================================== */
+@media print, screen and (min-width: 768px){
+
+  #rwd-content .rwd-global-nav-item span,
+  #rwd-content .rwd-global-nav-item a{
+    font-size: 1.5rem;
+  }
+
+
+  #rwd-content .rwd-404-content input.keyword,
+  #rwd-content .rwd-search-form input.keyword{
+    font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+
+  #rwd-content .rwd-keyvisual-caption-title-en {
+    font-size: 1.8rem;
+    line-height: 1.1;
+  }
+}
+
+
+/* ====================================================================================
+  # PC Liquid Layout
+====================================================================================== */
+@media screen and (min-width: 768px) and (max-width: 1220px) {}
+
+@media screen and (min-width: 768px) and (max-width: 916px){
+	#rwd-content .rwd-global-nav-item > a {
+		margin: 0 .5em;
+    font-size: 1.2rem;
+	}
+  #rwd-content .rwd-global-nav-item > .rwd-icon-newwin{
+    margin-left: .3em;
+  }
+	#rwd-content .rwd-mc-keyvisual-caption-wrap {
+		width: 25%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 812px){}
+
+
+/* ====================================================================================
+    SP Layout
+====================================================================================== */
+@media screen and (max-width: 767px){
+
+
+
+}
