@@ -1,0 +1,301 @@
+@charset "utf-8";
+/*コンテンツエリアの下余白を詰める*/
+#rwd-content #rwd-main-content {
+    margin-bottom: 50px!important;
+}
+/* 画像下キャプションを左寄せ */
+#rwd-content .rwd-related-model figcaption {
+text-align: left!important;
+}
+
+/*カテゴリー帯*/
+#rwd-content .rwd-main-content-group.wide .cate_bar {
+    background: #0695d1;
+    border-bottom: solid 1px #fff;
+}
+#rwd-content .rwd-main-content-group.wide .cate_bar p{
+	float: left;
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: bold;
+	line-height: 1;
+	padding: 13px 0 10px 2.34375%;
+  white-space: nowrap;
+}
+#rwd-content .rwd-main-content-group.wide .cate_bar .btn_updir{
+	float: right;
+}
+/*ダウンロードアイコン*/
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button.icon01,
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button.icon01:hover,
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button02.icon01,
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button02.icon01:hover{
+    background-image: url(../../../../../shared/img/rwd_icon_download02.svg);
+}
+#rwd-content .rwd-grid-gallerylist01 a.rwd-gallery-button,
+#rwd-content .rwd-grid-gallerylist01 a.rwd-gallery-button02{
+   box-sizing: none;
+    display: block;
+    background: #0695d1 no-repeat;
+    color: #fff;
+}
+#rwd-content .rwd-grid-gallerylist01 a.rwd-gallery-button:hover,
+#rwd-content .rwd-grid-gallerylist01 a.rwd-gallery-button02:hover {
+    background: #3db3fd no-repeat;
+}
+#rwd-content .rwd-gallery-button-area {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+/*PDFデータ容量*/
+.btn-caption {
+    font-size: 1.5rem;
+    line-height: 1.5!important;
+    text-align: center;
+    padding-top:10px;
+    margin-bottom: 30px;
+}
+
+/*ページ内リンク*/
+#dl-nav-area {
+  margin-bottom: 80px;
+}
+#dl-nav-area a {
+  width: 15%;
+  margin: 0 0.75% 1.6em;
+  display: inline-block;
+  position: relative;
+}
+#dl-nav-area a::after {
+  width: 25px;
+  height: 25px;
+  content: "";
+  display: block;
+  background: url(../../../../../showroom/papercraft/ultra/shared-craft-models/img/arrow_002.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 15;
+  right: 8px;
+  bottom: 8px;
+}
+#dl-nav-area a img {
+  position: relative;
+  z-index: 10;
+}
+
+/*説明文見出し*/
+.catch_orange span{
+    font-weight: bold;
+    margin-top:1em;
+}
+
+
+
+@media print, screen and (min-width: 768px){
+/* ================================================
+画面幅が768px以上の場合の表示設定
+================================================ */
+
+/* リードコピーの行間を広げる */
+p.rwd-text.rwd-large {
+    line-height: 1.6!important;
+}
+/*キャッチコピー「　」付き*/
+#rwd-content p.catch{
+    font-size: 1.7rem!important;
+}
+#rwd-content .catch,
+#rwd-content .catch_orange,
+#rwd-content .catch_green{
+    width : calc(100% - 100px) ;
+    position: relative;
+    padding: 50px 50px 10px 50px;
+}
+
+#rwd-content .catch::before {
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 62px;
+height: 84px;
+margin-top: 0;
+background: url("../img/kakko_left_blue.svg") top left no-repeat;
+background-size: 62px 84px;
+}
+#rwd-content .catch_orange::before {
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 62px;
+height: 84px;
+margin-top: 0;
+background: url("../img/kakko_left_orange.svg") top left no-repeat;
+background-size: 62px 84px;
+}
+#rwd-content .catch_green::before {
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 62px;
+height: 84px;
+margin-top: 0;
+background: url("../img/kakko_left_green.svg") top left no-repeat;
+background-size: 62px 84px;
+}
+
+#rwd-content .catch::after {
+position: absolute;
+content: "";
+bottom: -10%;
+right: 0;
+width: 62px;
+height: 84px;
+margin-top: -12px;
+background: url("../img/kakko_right_blue.svg") top left no-repeat;
+background-size: 62px 84px;
+}
+#rwd-content .catch_orange::after {
+position: absolute;
+content: "";
+bottom: -10%;
+right: 0;
+width: 62px;
+height: 84px;
+margin-top: -12px;
+background: url("../img/kakko_right_orange.svg") top left no-repeat;
+background-size: 62px 84px;
+}
+#rwd-content .catch_green::after {
+position: absolute;
+content: "";
+bottom: -10%;
+right: 0;
+width: 62px;
+height: 84px;
+margin-top: -12px;
+background: url("../img/kakko_right_green.svg") top left no-repeat;
+background-size: 62px 84px;
+}
+/*データ初出*/
+#rwd-content .publishday{
+	font-size: 1.4rem!important;
+    padding: 50px 0;
+    text-align: right;
+
+}
+
+
+/*ダウンロードアイテムのタイトル*/
+.rwd-section-headline.rwd-xsmall span:first-child {
+    font-size: 2.0rem;
+}
+.rwd-section-headline.rwd-border-short span:first-child {
+    border-bottom: 1px solid #cfcfcf;
+    padding: 0 5px 10px 5px;
+}
+h3 {
+    line-height: 1.5;
+    margin: 0;
+}
+/*ダウンロードボタン*/
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button{
+    width: 48.8645%;
+    height: 52px;
+    line-height: 52px;
+    text-align: right;
+    font-size: 1.6rem;
+    font-family: 'Roboto', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: normal;
+    padding-right: 5%;
+}
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button02{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    text-align: right;
+    font-size: 1.6rem;
+    font-family: 'Roboto', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-weight: normal;
+    padding-right: 6%;
+}
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button.icon01,
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button.icon01:hover {
+    background-position: 8% 13px;
+    background-size: 37px 28px;
+}
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button02.icon01,
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button02.icon01:hover {
+    background-position: 4% 13px;
+    background-size: 37px 28px;
+}
+}
+
+@media print, screen and (max-width: 767px){
+/* ================================================
+画面幅が768px未満の場合の表示設定
+================================================ */
+
+
+/*ページ内リンク*/
+  #dl-nav-area {
+    margin-bottom: 50px;
+  }
+  #dl-nav-area a {
+    width: 48%;
+    margin: 0 0 12px;
+  }
+  #dl-nav-area a::after {
+    width: 20px;
+    height: 20px;
+    right: 8px;
+    bottom: 8px;
+  }
+/*  #dl-nav-area a::after {
+    width: 12px;
+    height: 12px;
+    right: 4px;
+    bottom: 4px;
+  }*/
+
+/*初出日*/
+.publishday{
+    margin-top:20px;
+    margin-bottom:40px;
+    padding-top: 20px;
+    font-size: 1.4rem;
+    border-top: solid 1px #dddddd;
+}
+/*ダウンロードデータの見出し*/
+.rwd-section-headline.rwd-xsmall span:first-child {
+    font-size: 2.0rem!important;
+}
+  #rwd-content .rwd-gallery-button-area {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+/*ダウンロードボタン２つ並びの幅調整*/
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button {
+    width: 48%!important;
+}
+/*ダウンロードボタン1つの幅調整*/
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button02 {
+    width: 100%!important;
+    height: 38px;
+    line-height: 1;
+    font-size: 1.4rem;
+    padding-top: 64px;
+    text-align: center;
+}
+#rwd-content .rwd-grid-gallerylist01 .rwd-gallery-button02.icon01 {
+    background-position: center 23px;
+    background-size: 37px 28px;
+    -webkit-order: 1;
+    order: 1;
+}
